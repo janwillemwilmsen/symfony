@@ -89,7 +89,7 @@ export default {
   modules: ["nuxt-i18n"],
 
   i18n: {
-    baseUrl: 'https://my-nuxt-app.com',
+    // baseUrl: 'https://my-nuxt-app.com',
     seo: true,
     lazy: true,
     langDir: "lang/",
