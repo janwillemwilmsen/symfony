@@ -2,9 +2,15 @@
   <footer class="outer">
     <div>
       <NuxtLink to="/" class="logo">
-        <img src="/logo-shop.svg" alt="" width="69" height="84" />
+        <img src="/logo-shop2.png" alt="" width="69"  />
       </NuxtLink>
     </div>
+
+
+  <div>
+    <img src="/harts.png" style="width:150px;" alt="">
+  </div>
+
     <footer class="navlist">
       <h5>Menu</h5>
       <li v-for="child of navItems" :key="child.path" class="nav-list-item">
@@ -36,7 +42,7 @@ export default {
 <style scoped>
 .outer {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   max-width: 1600px;
   margin: 50px auto;
   border-top: 2px solid var(--color-box-background);

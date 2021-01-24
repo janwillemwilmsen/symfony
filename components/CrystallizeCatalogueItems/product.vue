@@ -6,7 +6,7 @@
       </div>
     </div>
     <div class="text">
-      <h2>{{ name }}</h2>
+      <h2>Product.vue in CataloquesItems {{ name }}</h2>
       <span class="price">
         <Price :variant="variant" />
       </span>

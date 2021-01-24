@@ -1,5 +1,6 @@
 <template>
   <div class="images">
+    <h1>images.vue in ItemComponents</h1>
     <template v-for="image in data.images">
       <CrystallizeImage :key="image.url" :image="image" class="image" />
     </template>

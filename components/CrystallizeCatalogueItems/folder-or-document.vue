@@ -9,7 +9,7 @@
       />
     </div>
     <div class="text">
-      <h2>{{ name }}</h2>
+      <h2>{{ name }} - components - CatalogueItems Folder-or-documents</h2>
       <div class="description">
         <CrystallizeContentTransformer :data="description" />
       </div>
@@ -60,8 +60,9 @@ export default {
   display: block;
   object-fit: cover;
   object-position: center;
-  width: 100%;
-  height: 500px;
+  margin:0 auto;
+  width: 50%;
+  /* height: 500px; */
   overflow: hidden;
 }
 
@@ -79,6 +80,7 @@ export default {
   color: inherit;
   font-family: "Roboto Slab", "Roboto", sans-serif;
   margin: 0;
+  text-align: center;
 }
 
 .description {
