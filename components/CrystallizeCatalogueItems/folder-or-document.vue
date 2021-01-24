@@ -9,7 +9,8 @@
       />
     </div>
     <div class="text">
-      <h2>{{ name }} - components - CatalogueItems Folder-or-documents</h2>
+      <h2>{{ name }}</h2>
+      <!-- <h2>{{ name }} - components - CatalogueItems Folder-or-documents</h2> -->
       <div class="description">
         <CrystallizeContentTransformer :data="description" />
       </div>

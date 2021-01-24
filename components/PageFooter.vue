@@ -8,16 +8,18 @@
 
 
   <div>
-    <img src="/harts.png" style="width:150px;" alt="">
+    <img src="/harts.png" style="width:150px;" alt="Symfony">
   </div>
 
     <footer class="navlist">
       <h5>Menu</h5>
+      <ul>
       <li v-for="child of navItems" :key="child.path" class="nav-list-item">
         <NuxtLink :to="child.path">
           {{ child.name }}
         </NuxtLink>
       </li>
+      </ul>
     </footer>
     <div class="powered">
       <p>eCommerce by</p>
@@ -80,7 +82,7 @@ export default {
 }
 
 .navlist li {
-  line-height: 1.5rem;
+  line-height: 2.5rem;
 }
 
 .navlist h5 {

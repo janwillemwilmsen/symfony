@@ -219,7 +219,9 @@ h1.name {
 @media (min-width: 1024px) {
   .product-secondary-info {
     display: grid;
-    grid-template-columns: auto 500px;
+    /* grid-template-columns: auto 500px; */
+/* UITGEZET OM OP PRODUCTPAGINA 1 COL te krijgen */
+
     grid-gap: 15px;
   }
 }

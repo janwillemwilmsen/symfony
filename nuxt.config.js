@@ -25,6 +25,7 @@ const locale = appConfig.locale || {
 };
 
 export default {
+   target: 'static',
   env: {
     // Expose CRYSTALLIZE_TENANT_IDENTIFIER to the client side script
     CRYSTALLIZE_TENANT_IDENTIFIER: process.env.CRYSTALLIZE_TENANT_IDENTIFIER,
@@ -88,6 +89,7 @@ export default {
   modules: ["nuxt-i18n"],
 
   i18n: {
+    baseUrl: 'https://my-nuxt-app.com',
     seo: true,
     lazy: true,
     langDir: "lang/",
